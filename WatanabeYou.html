@@ -3,12 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>러브라이브 선샤인 홈페이지</title>
+    <style>
+      h1 {
+        color: skyblue;
+        border-bottom: 1px solid skyblue;
+        padding: 5px;
+        text-align: center;
+        margin: 0;
+      }
+
+
+
+      a {
+        color : skyblue;
+        text-decoration: none;
+      }
+
+
+      ol {
+        border-right: 1px solid skyblue;
+        width : 150px;
+        margin: 0;
+      }
+
+      #grid{
+        display: grid;
+      }
+
+      #grid ol {
+        padding-left: 20px;
+      }
+
+      h5 {
+        margin: 0;
+      }
+
+      #article img {
+          padding-left: 25px;
+          position: absolute;
+          left: 350px;
+
+      }
+
+    </style>
   </head>
   <body>
-    <h1>와타나베 요우</h1>
-    <h5><a href="Sunshine.html">뒤로가기</a></h5>
-    <img src="unnamed.jpg" width="250">
-    <input type="button" name="1" value="이쁘다">
-    <input type="button" name="2" value="안 이쁘다">
+    <div id="grid">
+      <h1>와타나베 요우</h1>
+      <div >
+        <ol>
+          <li><a href="WatanabeYou.html">와타나베 요우</a></li>
+          <li><a href="MatsuwuraKanan.html">마츠우라 카난</a></li>
+          <li><a href="KurosawDaia.html">쿠로사와 다이아</a></li>
+        </ol>
+          <h5><a href="Sunshine.html">뒤로가기</a></h5>
+        <div id="article">
+          <img src="unnamed.jpg" width="500">
+        </div>
+
+      </div>
+
+    </div>
   </body>
 </html>
